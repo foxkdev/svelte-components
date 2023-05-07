@@ -1,10 +1,14 @@
 {
   "name": "@foxkdev/svelte-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "dist/index.js",
   "scripts": {
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "publishConfig": {
     "access": "public"
@@ -27,16 +31,17 @@
     "url": "https://github.com/foxkdev/svelte-components/issues"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.2",
     "prettier": "^2.4.0",
-    "ts-loader": "^9.2.5",
-    "typescript": "^4.4.3",
-    "webpack": "^5.52.1",
-    "webpack-cli": "^4.8.0"
+    "rollup": "^3.21.5",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.4",
+    "svelte": "^3.59.0"
+  },
+  "dependencies": {
+    
   }
 }
