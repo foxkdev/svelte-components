@@ -1,0 +1,57 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="24" height="24" rx="6" fill="url(#combobox-_mobile-nav__paint0_linear_903_6)"></rect>
+  <mask id="combobox-_mobile-nav__a" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" style="mask-type: alpha;">
+    <rect width="24" height="24" rx="6" fill="url(#combobox-_mobile-nav__paint1_linear_903_6)"></rect>
+  </mask>
+  <g mask="url(#combobox-_mobile-nav__a)">
+    <g filter="url(#combobox-_mobile-nav__filter0_dd_903_6)">
+      <path d="M4 7a1 1 0 011-1h14a1 1 0 011 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1V7z" fill="#fff"></path>
+      <path d="M5 5.5A1.5 1.5 0 003.5 7v3A1.5 1.5 0 005 11.5h14a1.5 1.5 0 001.5-1.5V7A1.5 1.5 0 0019 5.5H5z" stroke="#000" stroke-opacity="0.04"></path>
+    </g>
+    <path d="M6.5 8.5h4" stroke="#64748B" stroke-linecap="round"></path>
+    <path opacity="0.2" d="M16.5 8.5h1" stroke="#0F172A" stroke-linecap="round"></path>
+    <g filter="url(#combobox-_mobile-nav__filter1_dd_903_6)">
+      <path d="M4 14a1 1 0 011-1h14a1 1 0 011 1v11a1 1 0 01-1 1H5a1 1 0 01-1-1V14z" fill="#fff"></path>
+      <path d="M5 12.5A1.5 1.5 0 003.5 14v11A1.5 1.5 0 005 26.5h14a1.5 1.5 0 001.5-1.5V14a1.5 1.5 0 00-1.5-1.5H5z" stroke="#000" stroke-opacity="0.04"></path>
+    </g>
+    <path opacity="0.3" d="M6.5 15.5h7M6.5 18.5h6M6.5 21.5h3" stroke="#0F172A" stroke-linecap="round"></path>
+  </g>
+  <defs>
+    <linearGradient id="combobox-_mobile-nav__paint0_linear_903_6" x1="0" y1="0" x2="24.053" y2="0.053" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AAF0F4"></stop>
+      <stop offset="1" stop-color="#10B981"></stop>
+    </linearGradient>
+    <linearGradient id="combobox-_mobile-nav__paint1_linear_903_6" x1="0" y1="0" x2="24.053" y2="0.053" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EC4899"></stop>
+      <stop offset="1" stop-color="#F43F5E"></stop>
+    </linearGradient>
+    <filter id="combobox-_mobile-nav__filter0_dd_903_6" x="0" y="3" width="24" height="13" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dy="1"></feOffset>
+      <feGaussianBlur stdDeviation="1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"></feColorMatrix>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_903_6"></feBlend>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dy="1"></feOffset>
+      <feGaussianBlur stdDeviation="1.5"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"></feColorMatrix>
+      <feBlend in2="effect1_dropShadow_903_6" result="effect2_dropShadow_903_6"></feBlend>
+      <feBlend in="SourceGraphic" in2="effect2_dropShadow_903_6" result="shape"></feBlend>
+    </filter>
+    <filter id="combobox-_mobile-nav__filter1_dd_903_6" x="0" y="10" width="24" height="21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dy="1"></feOffset>
+      <feGaussianBlur stdDeviation="1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"></feColorMatrix>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_903_6"></feBlend>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dy="1"></feOffset>
+      <feGaussianBlur stdDeviation="1.5"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"></feColorMatrix>
+      <feBlend in2="effect1_dropShadow_903_6" result="effect2_dropShadow_903_6"></feBlend>
+      <feBlend in="SourceGraphic" in2="effect2_dropShadow_903_6" result="shape"></feBlend>
+    </filter>
+  </defs>
+</svg>

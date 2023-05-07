@@ -1,0 +1,11 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="24" height="24" rx="6" fill="url(#switch-_mobile-nav__paint0_linear)"></rect>
+  <rect x="4" y="7" width="16" height="10" rx="5" fill="#0F766E"></rect>
+  <rect x="11" y="8" width="8" height="8" rx="4" fill="#F0FDFA"></rect>
+  <defs>
+    <linearGradient id="switch-_mobile-nav__paint0_linear" x1="0" y1="0" x2="24.053" y2="0.053" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ADE80"></stop>
+      <stop offset="1" stop-color="#14B4C6"></stop>
+    </linearGradient>
+  </defs>
+</svg>
