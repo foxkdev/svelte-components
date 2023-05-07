@@ -1,15 +1,10 @@
 {
   "name": "@foxkdev/svelte-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "umd:main": "dist/umd/index.js",
-  "types": "dist/types/index.d.js",
+  "main": "lib/index.js",
   "scripts": {
-    "postinstall": "husky install",
-    "build": "yarn run clean && tsc .",
-    "clean": "node tools/cleanup"
+    "postinstall": "husky install"
   },
   "publishConfig": {
     "access": "public"
