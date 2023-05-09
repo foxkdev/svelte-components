@@ -1,12 +1,12 @@
 {
   "name": "@foxkdev/svelte-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "svelte": "dist/index.js",
+  "svelte": "lib/index.js",
+  "type": "module",
   "scripts": {
-    "postinstall": "husky install",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },

@@ -1,6 +1,5 @@
 <script>
-import { menuOpened } from '../../stores/menu'
-  import Menu from './Menu.svelte';
+  import { menuOpened } from '../../stores/menu'
   export let position = 'bottom-right'
 
   const positions = {
